@@ -3,7 +3,7 @@
 // Static file serving (CSS, JS, images)
 Route::set('uasparser/assets', 'uasparser/assets(/<file>)', array('file' => '.+'))
 	->defaults(array(
-		'controller' => 'uasparser',
+		'controller' => 'UASparser',
 		'action'     => 'assets',
 		'file'       => NULL,
 	));

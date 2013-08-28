@@ -6,7 +6,7 @@
  * @category   Controllers
  * @author     Luiz Alberto <madeinnordeste@gmail.com>
  */
-class Controller_Uasparser extends Controller {
+class Controller_UASparser extends Controller {
 
 	public function action_assets()
 	{
